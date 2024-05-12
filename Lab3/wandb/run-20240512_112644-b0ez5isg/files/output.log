@@ -1,0 +1,67 @@
+Training agent with baseline value network.
+Average Total: 17.4
+Average Length: 17.4
+Running reward: 0.81915682554245
+Average Total: 76.6
+Average Length: 76.6
+Running reward: 32.222686767578125
+Average Total: 373.9
+Average Length: 373.9
+Running reward: 92.16215515136719
+Average Total: 454.1
+Average Length: 454.1
+Running reward: 96.19007873535156
+Average Total: 107.9
+Average Length: 107.9
+Running reward: 81.78004455566406
+Average Total: 369.6
+Average Length: 369.6
+Running reward: 90.45332336425781
+Average Total: 500.0
+Average Length: 500.0
+Running reward: 97.94478607177734
+Average Total: 500.0
+Average Length: 500.0
+Running reward: 97.40885925292969
+Average Total: 477.2
+Average Length: 477.2
+Running reward: 96.87308502197266
+Average Total: 442.1
+Average Length: 442.1
+Running reward: 97.55530548095703
+Average Total: 344.0
+Average Length: 344.0
+Running reward: 97.45919799804688
+Average Total: 500.0
+Average Length: 500.0
+Running reward: 98.24307250976562
+Average Total: 485.8
+Average Length: 485.8
+Running reward: 97.85135650634766
+Average Total: 446.3
+Average Length: 446.3
+Running reward: 97.8079833984375
+Average Total: 412.2
+Average Length: 412.2
+Running reward: 96.36115264892578
+Average Total: 500.0
+Average Length: 500.0
+Running reward: 98.29978942871094
+Average Total: 391.0
+Average Length: 391.0
+Running reward: 94.06393432617188
+Average Total: 500.0
+Average Length: 500.0
+Running reward: 98.2701187133789
+Average Total: 500.0
+Average Length: 500.0
+Running reward: 98.30998992919922
+Average Total: 333.8
+Average Length: 333.8
+Running reward: 97.30620574951172
+Average reward for episode: 500.0
+Average reward for episode: 500.0
+Average reward for episode: 500.0
+Average reward for episode: 500.0
+Average reward for episode: 500.0
+Total Average reward for test episode: 500.0

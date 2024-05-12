@@ -1,0 +1,63 @@
+2024-05-12 00:27:51,260 INFO    MainThread:9884 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-05-12 00:27:51,260 INFO    MainThread:9884 [wandb_setup.py:_flush():76] Configure stats pid to 9884
+2024-05-12 00:27:51,261 INFO    MainThread:9884 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Niccolò\.config\wandb\settings
+2024-05-12 00:27:51,261 INFO    MainThread:9884 [wandb_setup.py:_flush():76] Loading settings from c:\Users\Niccolò\Desktop\DLA\VSCodeLabs\DLA\Lab3\wandb\settings
+2024-05-12 00:27:51,261 INFO    MainThread:9884 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-05-12 00:27:51,261 INFO    MainThread:9884 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-05-12 00:27:51,261 INFO    MainThread:9884 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-05-12 00:27:51,261 INFO    MainThread:9884 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-05-12 00:27:51,262 INFO    MainThread:9884 [wandb_init.py:_log_setup():521] Logging user logs to c:\Users\Niccolò\Desktop\DLA\VSCodeLabs\DLA\Lab3\wandb\run-20240512_002751-i5nilo3l\logs\debug.log
+2024-05-12 00:27:51,262 INFO    MainThread:9884 [wandb_init.py:_log_setup():522] Logging internal logs to c:\Users\Niccolò\Desktop\DLA\VSCodeLabs\DLA\Lab3\wandb\run-20240512_002751-i5nilo3l\logs\debug-internal.log
+2024-05-12 00:27:51,262 INFO    MainThread:9884 [wandb_init.py:init():561] calling init triggers
+2024-05-12 00:27:51,262 INFO    MainThread:9884 [wandb_init.py:init():568] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.01, 'baaseline_learning_rate': 0.01, 'architecture': 'REINFORCE_BAS', 'dataset': 'CartPole', 'hidden_layer_size': 128, 'episodes': 2000, 'gamma': 0.99, 'episode_max_len': 500, 'N': 100, 'temperature': 10, 'M': 10, 'baseline': 'BaselineNet', 'learning_rate_baseline': 0.01}
+2024-05-12 00:27:51,262 INFO    MainThread:9884 [wandb_init.py:init():586] re-initializing run, found existing run on stack: 07vpszto
+2024-05-12 00:27:51,265 INFO    MainThread:9884 [wandb_run.py:_finish():2064] finishing run dla-labs/Lab3-Final/07vpszto
+2024-05-12 00:27:51,266 INFO    MainThread:9884 [jupyter.py:save_history():445] not saving jupyter history
+2024-05-12 00:27:51,266 INFO    MainThread:9884 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-05-12 00:27:51,266 INFO    MainThread:9884 [wandb_init.py:_jupyter_teardown():449] cleaning up jupyter logic
+2024-05-12 00:27:51,266 INFO    MainThread:9884 [wandb_run.py:_atexit_cleanup():2304] got exitcode: 0
+2024-05-12 00:27:51,267 INFO    MainThread:9884 [wandb_run.py:_restore():2287] restore
+2024-05-12 00:27:51,267 INFO    MainThread:9884 [wandb_run.py:_restore():2293] restore done
+2024-05-12 00:27:57,640 INFO    MainThread:9884 [wandb_run.py:_footer_history_summary_info():3936] rendering history
+2024-05-12 00:27:57,643 INFO    MainThread:9884 [wandb_run.py:_footer_history_summary_info():3968] rendering summary
+2024-05-12 00:27:57,676 INFO    MainThread:9884 [wandb_run.py:_footer_sync_info():3895] logging synced files
+2024-05-12 00:27:58,223 INFO    MainThread:9884 [wandb_init.py:init():611] starting backend
+2024-05-12 00:27:58,224 INFO    MainThread:9884 [wandb_init.py:init():615] setting up manager
+2024-05-12 00:27:58,236 INFO    MainThread:9884 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-05-12 00:27:58,238 INFO    MainThread:9884 [wandb_init.py:init():623] backend started and connected
+2024-05-12 00:27:58,261 INFO    MainThread:9884 [wandb_run.py:_label_probe_notebook():1299] probe notebook
+2024-05-12 00:27:58,261 INFO    MainThread:9884 [wandb_run.py:_label_probe_notebook():1309] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-05-12 00:27:58,262 INFO    MainThread:9884 [wandb_init.py:init():715] updated telemetry
+2024-05-12 00:27:58,262 INFO    MainThread:9884 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2024-05-12 00:27:59,604 INFO    MainThread:9884 [wandb_run.py:_on_init():2357] communicating current version
+2024-05-12 00:28:00,306 INFO    MainThread:9884 [wandb_run.py:_on_init():2366] got version response upgrade_message: "wandb version 0.17.0 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-05-12 00:28:00,306 INFO    MainThread:9884 [wandb_init.py:init():799] starting run threads in backend
+2024-05-12 00:28:05,639 INFO    MainThread:9884 [wandb_run.py:_console_start():2335] atexit reg
+2024-05-12 00:28:05,639 INFO    MainThread:9884 [wandb_run.py:_redirect():2190] redirect: wrap_raw
+2024-05-12 00:28:05,639 INFO    MainThread:9884 [wandb_run.py:_redirect():2255] Wrapping output streams.
+2024-05-12 00:28:05,639 INFO    MainThread:9884 [wandb_run.py:_redirect():2280] Redirects installed.
+2024-05-12 00:28:05,640 INFO    MainThread:9884 [wandb_init.py:init():842] run started, returning control to user process
+2024-05-12 00:53:03,149 INFO    MainThread:9884 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-05-12 00:53:03,149 INFO    MainThread:9884 [wandb_setup.py:_flush():76] Configure stats pid to 9884
+2024-05-12 00:53:03,149 INFO    MainThread:9884 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Niccolò\.config\wandb\settings
+2024-05-12 00:53:03,150 INFO    MainThread:9884 [wandb_setup.py:_flush():76] Loading settings from c:\Users\Niccolò\Desktop\DLA\VSCodeLabs\DLA\Lab3\wandb\settings
+2024-05-12 00:53:03,150 INFO    MainThread:9884 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-05-12 00:53:03,150 INFO    MainThread:9884 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-05-12 00:53:03,158 INFO    MainThread:9884 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-05-12 00:53:03,158 INFO    MainThread:9884 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-05-12 00:53:03,159 INFO    MainThread:9884 [wandb_init.py:_log_setup():521] Logging user logs to c:\Users\Niccolò\Desktop\DLA\VSCodeLabs\DLA\Lab3\wandb\run-20240512_005303-krjc6uw7\logs\debug.log
+2024-05-12 00:53:03,160 INFO    MainThread:9884 [wandb_init.py:_log_setup():522] Logging internal logs to c:\Users\Niccolò\Desktop\DLA\VSCodeLabs\DLA\Lab3\wandb\run-20240512_005303-krjc6uw7\logs\debug-internal.log
+2024-05-12 00:53:03,160 INFO    MainThread:9884 [wandb_init.py:_jupyter_setup():467] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000022A5403E5D0>
+2024-05-12 00:53:03,160 INFO    MainThread:9884 [wandb_init.py:init():561] calling init triggers
+2024-05-12 00:53:03,160 INFO    MainThread:9884 [wandb_init.py:init():568] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.01, 'baaseline_learning_rate': 0.01, 'architecture': 'REINFORCE_BAS', 'dataset': 'CartPole', 'hidden_layer_size': 128, 'episodes': 2000, 'gamma': 0.99, 'episode_max_len': 500, 'N': 100, 'temperature': 10, 'M': 10, 'baseline': 'BaselineNet', 'learning_rate_baseline': 0.01}
+2024-05-12 00:53:03,161 INFO    MainThread:9884 [wandb_init.py:init():586] re-initializing run, found existing run on stack: i5nilo3l
+2024-05-12 00:53:03,163 INFO    MainThread:9884 [wandb_run.py:_finish():2064] finishing run dla-labs/Lab3-Final/i5nilo3l
+2024-05-12 00:53:03,164 INFO    MainThread:9884 [wandb_run.py:_atexit_cleanup():2304] got exitcode: 0
+2024-05-12 00:53:03,164 INFO    MainThread:9884 [wandb_run.py:_restore():2287] restore
+2024-05-12 00:53:03,165 INFO    MainThread:9884 [wandb_run.py:_restore():2293] restore done
+2024-05-12 00:53:10,715 INFO    MainThread:9884 [wandb_run.py:_footer_history_summary_info():3936] rendering history
+2024-05-12 00:53:10,719 INFO    MainThread:9884 [wandb_run.py:_footer_history_summary_info():3968] rendering summary
+2024-05-12 00:53:10,752 INFO    MainThread:9884 [wandb_run.py:_footer_sync_info():3895] logging synced files
