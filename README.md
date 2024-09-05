@@ -1,5 +1,5 @@
 # DLA
-Repository with DLA Labs
+Repository containing the labs conducted for the Deep Learning Applications exam.
 ## Lab1
 ### Required libraries to successfully run the code:
 numpy, matplotlib, functools, torch, torchvision, tqdm, pandas, seaborn, sklearn, PIL
