@@ -41,6 +41,6 @@ This laboratory focuses on developing a method for identifying out-of-distributi
 
 In the first section, a pipeline is defined for detecting out-of-distribution (OOD) samples, as well as some metrics for evaluating OOD detection performance. The pipeline is based on the Cifar-10 dataset as in-distribution (ID) and either the FAKE Data dataset or a subset of Cifar-100 as OOD.
 
-In the second section
+The second section presents experiments aimed at enhancing a model's robustness to adversarial attacks. Initially, the Fast Gradient Sign Method (FGSM) is implemented and tested, and then used for augmentation (with adversarial samples) during model training. The techniques from the first section are employed to evaluate whether the adversarial training has been effective.
 
-In the third section
+Finally, in the third and last section, a targeted version of FGSM is implemented and evaluated. For the targeted labels, I considered two possible cases: the second most probable label or I manually set target labels for each possible class. Testing was conducted on the base CNN model with the CIFAR-10 dataset.
