@@ -24,7 +24,7 @@ The second section aims to implement Grad-CAM according to the mathematical fram
 numpy, matplotlib, gymnasium, torch, random, tqdm, collections, os, imageio, PIL
 
 ### Info
-This laboratory is dedicated to implementing and executing some advanced Deep Reinforcement Learning algorithms.
+This laboratory is dedicated to implementing and executing some advanced Deep Reinforcement Learning algorithms. There are no studies on possible optimal hyperparameter values in the first two sections, as I empirically explored configurations of interest.
 
 In the first section, the REINFORCE algorithm is implemented on the CartPole environment with a standard baseline. Since the policy is stochastic, 5 runs were performed for each configuration analyzed, and for each metric considered, the average curve and variance were examined.
 
