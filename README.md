@@ -4,7 +4,7 @@ Repository containing the labs conducted for the Deep Learning Applications exam
 ### Required libraries to successfully run the code:
 numpy, matplotlib, functools, torch, torchvision, tqdm, pandas, seaborn, sklearn, PIL
 
-### Info
+### Info:
 This laboratory aims to replicate, with simplified architectures, the results contained in the ResNet paper:
 
 > [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385), Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun, CVPR 2016.
@@ -23,7 +23,7 @@ The second section aims to implement Grad-CAM according to the mathematical fram
 ### Required libraries to successfully run the code:
 numpy, matplotlib, gymnasium, torch, random, tqdm, collections, os, imageio, PIL
 
-### Info
+### Info:
 This laboratory is dedicated to implementing and executing some advanced Deep Reinforcement Learning algorithms. There are no studies on possible optimal hyperparameter values in the first two sections, as I empirically explored configurations of interest.
 
 In the first section, the REINFORCE algorithm is implemented on the CartPole environment with a standard baseline. Since the policy is stochastic, 5 runs were performed for each configuration analyzed, and for each metric considered, the average curve and variance were examined.
@@ -36,4 +36,11 @@ Finally, the third section includes the training of some agents to solve the env
 ### Required libraries to successfully run the code:
 numpy, matplotlib, torch, torchvision, typing
 
-### Info
+### Info:
+This laboratory focuses on developing a method for identifying out-of-distribution (OOD) samples and evaluating the performance of OOD detection, along with experiments where adversarial examples are used during training to improve model robustness against adversarial attacks.
+
+In the first section, a pipeline is defined for detecting out-of-distribution (OOD) samples, as well as some metrics for evaluating OOD detection performance. The pipeline is based on the Cifar-10 dataset as in-distribution (ID) and either the FAKE Data dataset or a subset of Cifar-100 as OOD.
+
+In the second section
+
+In the third section
