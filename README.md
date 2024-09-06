@@ -11,8 +11,10 @@ This laboratory aims to replicate, with simplified architectures, the results co
 The goal is to show that increasing the depth (number of layers) of a network (whether linear or convolutional) does not result in higher accuracy for validation and test or in more reduction for training and validation loss.
 
 The first section contains two exercises: 
-* The first one involves training and evaluating an MLP architecture on the MNIST dataset while varying the depth. I set three different depth values (2, 5, 7), while keeping the rest of the architectures identical in terms of hyperparameters and seed, and then compared the test results. 
-* The second exercise assesses the impact of increasing the depth of a CNN (defined with 3 main layers, each consisting of a variable number of blocks) trained on the CIFAR-10 dataset. Again, I considered three different depth values (8, 14, 16), keeping the hyperparameters and seed consistent across the models.
+* The first one involves training and evaluating an MLP architecture on the MNIST dataset while varying the depth.
+  I set three different depth values (2, 5, 7), while keeping the rest of the architectures identical in terms of hyperparameters and seed, and then compared the test results. 
+* The second exercise assesses the impact of increasing the depth of a CNN (defined with 3 main layers, each consisting of a variable number of blocks) trained on the CIFAR-10 dataset.
+  Again, I considered three different depth values (8, 14, 16), keeping the hyperparameters and seed consistent across the models.
 
 The second section
 
